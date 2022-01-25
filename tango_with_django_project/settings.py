@@ -122,12 +122,13 @@ USE_TZ = True
 STATICFILES_DIRS = [STATIC_DIR, ]
 STATIC_URL = '/static/'
 
+#Media files
+MEDIA_ROOT = MEDIA_DIR
+MEDIA_URL = '/media/'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-#Media files
-MEDIA_ROOT = MEDIA_DIR
-MEDIA_URL = '/media/'
